@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: whitesmoke;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alineacionCajaFooter {
+  align-self: center;
+}
+
+footer {
+  background-color: #0a0a0a;
+}
+footer div p {
+  color: dimgray;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.cajaSubNovedades {
+  background-color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  transition: all 1s;
+  height: 500px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 991px) {
+  .cajaSubNovedades {
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    transition: all 1s;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cajaSubNovedades {
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    transition: all 1s;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cajaSubNovedades {
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    transition: all 1s;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+}
+
+.fondoNovedades {
+  background-image: linear-gradient(to bottom, #0F91C3, #A7DBEF);
+}
+
+.imagenesSistemas {
+  border: 5px solid #e0dfdf;
+  margin: 15px;
+}
+.imagenesSistemas:hover {
+  animation: colorBorde 5s;
+}
+
+.imagenFondo {
+  background-image: url("../img/fondo.jpg");
+}
+
+.tamanoCarr {
+  height: 300px;
+  text-align: center;
+}
+
+.imagenTamanoCarr {
+  width: 700px;
+  height: 300px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .imagenTamanoCarr {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .imagenTamanoCarr {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+}
+
+@keyframes colorBorde {
+  0% {
+    border-top: 5px solid #00913f;
+  }
+  25% {
+    border-right: 5px solid #00913f;
+  }
+  50% {
+    border-bottom: 5px solid #00913f;
+  }
+  75% {
+    border-left: 5px solid #00913f;
+  }
+  100% {
+    border: 5px solid #00913f;
+  }
+}
+.alineacionCentro {
+  text-align: center;
+}
+
+.padding10 {
+  padding-top: 10px;
+}
+
+.padding2 {
+  padding: 2px;
+}
+
+.alineacionMenu {
+  margin: 20px 25px 20px 25px;
+}
+
+.espacioLogo {
+  padding: 2px;
+}
+
+.ulCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 0px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.descripcion {
+  color: #999999;
+  font-size: 16px;
+  padding: 5px 25px 5px 25px;
+  text-align: justify;
+  font-family: "Faustina", serif;
+}
+@media screen and (max-width: 991px) {
+  .descripcion {
+    color: #999999;
+    font-size: 14px;
+    padding: 5px 25px 5px 25px;
+    text-align: justify;
+    font-family: "Faustina", serif;
+  }
+}
+@media screen and (max-width: 768px) {
+  .descripcion {
+    color: #999999;
+    font-size: 12px;
+    padding: 5px 25px 5px 25px;
+    text-align: justify;
+    font-family: "Faustina", serif;
+  }
+}
+@media screen and (max-width: 576px) {
+  .descripcion {
+    color: #999999;
+    font-size: 10px;
+    padding: 5px 25px 5px 25px;
+    text-align: justify;
+    font-family: "Faustina", serif;
+  }
+}
+
+h2 {
+  color: #333333;
+  font-size: 18px;
+  padding: 10px 15px 5px 25px;
+  font-family: "Lato", sans-serif;
+  text-align: left;
+}
+
+.titulos2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Faustina", serif;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+h4 {
+  color: #333333;
+  font-size: 20px;
+  padding: 0px 15px 5px 15px;
+  font-family: "Faustina", serif;
+}
+
+.titulos1 {
+  color: #333333;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 30px 75px 30px 75px;
+}
+@media screen and (max-width: 991px) {
+  .titulos1 {
+    color: #333333;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 30px 75px 30px 75px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
