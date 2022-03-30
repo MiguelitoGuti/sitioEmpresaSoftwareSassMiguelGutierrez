@@ -1,0 +1,18 @@
+@mixin tamanoCajaServicios($alto,$ancho,$margen,$borde,$colorBorde,$colorFondo){
+    height: $alto;
+    width: $ancho;
+    margin: $margen;
+    border-style: $borde;
+    border-color: $colorBorde;
+    background-color: $colorFondo;
+}
+
+
+@mixin alineacionCajas{
+    display: inline-block;
+}
+
+.cajaServicios{
+    @include tamanoCajaServicios(164px,331px,20px,solid,gray,white);
+    @include alineacionCajas;
+}

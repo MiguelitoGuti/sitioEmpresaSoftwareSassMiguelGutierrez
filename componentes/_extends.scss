@@ -1,0 +1,32 @@
+.tituloPrincipal{
+    color:white;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 75px 30px 75px;
+    @media screen and (max-width: 991px) {
+
+        color:white;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        padding: 30px 75px 30px 75px;
+
+    }
+}
+
+.tituloPrincipal--inicio{
+    @extend .tituloPrincipal;
+    background: radial-gradient(circle, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+.tituloPrincipal--clientes{
+    @extend .tituloPrincipal;
+    background: radial-gradient(ellipse, rgb(126, 134, 206), #1162ac, black);
+}
+
+.tituloPrincipal--servicios{
+    @extend .tituloPrincipal;
+    background: radial-gradient(ellipse, rgba(123, 198, 198, 1), rgba(95, 171, 171, 1), rgba(38, 118, 119, 1));
+}
