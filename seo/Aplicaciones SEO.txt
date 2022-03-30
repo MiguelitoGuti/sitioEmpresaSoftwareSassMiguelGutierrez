@@ -1,0 +1,19 @@
+Aplicaciones SEO
+
+Palabras Clave o keywords
+
+Se utilizo las siguientes palabras clave:
+<meta name="keywords" content="HTML, JS, CSS, Web, tecnología, genexus, c#, .net, java, php, software, sistemas informáticos, equipos informáticos, desarrollo web, sistemas salud, sistemas rrhh, redes, seguridad informática, soluciones tecnológicas, consultoría it, sistemas a medida, digital">
+
+Titulos
+
+Se cambiaron los titulos de las distintas paginas. Se aplico unicidad en el contenido de titulos. Se agrego el nombre de la empresa
+
+<title>REMANET - Innovación en Desarrollo de Sistemas Informáticos</title> -- Pagina Inicio
+<title>Nuestros Clientes - REMANET</title> -- Pagina Clientes
+<title>Conozca Nuestros Servicios Tecnológicos - REMANET</title> -- Pagina Servicios
+
+Encabezados
+
+se aplicaron diversos tamaños y estilos para dichos encabezados
+
