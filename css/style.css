@@ -241,8 +241,8 @@ h4 {
   font-family: "Faustina", serif;
 }
 
-.tituloPrincipal, .tituloPrincipal--servicios, .tituloPrincipal--clientes, .tituloPrincipal--inicio {
-  color: white;
+.tituloPrincipal {
+  color: black;
   font-size: 48px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -250,8 +250,8 @@ h4 {
   padding: 30px 75px 30px 75px;
 }
 @media screen and (max-width: 991px) {
-  .tituloPrincipal, .tituloPrincipal--servicios, .tituloPrincipal--clientes, .tituloPrincipal--inicio {
-    color: white;
+  .tituloPrincipal {
+    color: black;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -259,31 +259,19 @@ h4 {
   }
 }
 
-.tituloPrincipal--inicio {
-  background: radial-gradient(circle, #020024 0%, #090979 35%, #00d4ff 100%);
-}
-
-.tituloPrincipal--clientes {
-  background: radial-gradient(ellipse, #7e86ce, #1162ac, black);
-}
-
-.tituloPrincipal--servicios {
-  background: radial-gradient(ellipse, #7bc6c6, #5fabab, #267677);
-}
-
 .bordeImagenCliente--color1 {
   border-style: solid;
-  border-color: #1f7287;
+  border-color: gray;
 }
 
 .bordeImagenCliente--color2 {
   border-style: solid;
-  border-color: #1288b9;
+  border-color: gray;
 }
 
 .bordeImagenCliente--color3 {
   border-style: solid;
-  border-color: #3a0841;
+  border-color: gray;
 }
 
 .cajaServicios {
