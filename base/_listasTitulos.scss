@@ -22,6 +22,21 @@ h3{
     height: 30px;
 }
 
+h6{
+    color:white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+h5{
+    color:#333333;
+    font-size: 15px;
+    padding: 10px 15px 5px 25px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
 .descripcion{
     color:#999999;
     font-size: 16px;
@@ -55,6 +70,59 @@ h3{
         padding: 5px 25px 5px 25px;
         text-align: justify;
         font-family: 'Faustina', serif;
+
+    }
+}
+
+.descripcionNosotros{
+    color:#333333;
+    font-size: 20px;
+    padding: 5px 25px 5px 25px;
+    text-align: justify;
+    font-family: 'Faustina', serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 991px) {
+         
+        color:#333333;
+        font-size: 18px;
+        padding: 5px 25px 5px 25px;
+        text-align: justify;
+        font-family: 'Faustina', serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+    
+        color:#333333;
+        font-size: 16px;
+        padding: 5px 25px 5px 25px;
+        text-align: justify;
+        font-family: 'Faustina', serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    @media screen and (max-width: 576px) {
+    
+        color:#333333;
+        font-size: 14px;
+        padding: 5px 25px 5px 25px;
+        text-align: justify;
+        font-family: 'Faustina', serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
 
     }
 }
@@ -97,6 +165,55 @@ h4{
         font-family: 'Roboto', sans-serif;
         text-align: center;
         padding: 30px 75px 30px 75px;
+
+    }
+}
+
+.listaComun{
+    list-style-type:square;
+    color: #999999;
+    font-size: 16px;
+    font-family: 'Faustina', serif;
+    display: block;
+    margin-left: 10px;    
+    margin-right: 25px;
+    text-align: justify;
+
+    @media screen and (max-width: 991px) {
+         
+        list-style-type:square;
+        color: #999999;
+        font-size: 14px;
+        font-family: 'Faustina', serif;
+        display: block;
+        margin-left: 10px;    
+        margin-right: 25px;
+        text-align: justify;
+    }
+
+    @media screen and (max-width: 768px) {
+    
+        list-style-type:square;
+        color: #999999;
+        font-size: 12px;
+        font-family: 'Faustina', serif;
+        display: block;
+        margin-left: 10px;    
+        margin-right: 25px;
+        text-align: justify;
+
+    }
+
+    @media screen and (max-width: 576px) {
+    
+        list-style-type:square;
+        color: #999999;
+        font-size: 10px;
+        font-family: 'Faustina', serif;
+        display: block;
+        margin-left: 10px;    
+        margin-right: 25px;
+        text-align: justify;
 
     }
 }

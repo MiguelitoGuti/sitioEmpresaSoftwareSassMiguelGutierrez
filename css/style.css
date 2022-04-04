@@ -91,6 +91,12 @@ footer div p {
 .imagenesClientes {
   margin: 15px;
 }
+.imagenesClientes:hover {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #37b5c0;
+  transform: scale(1.1);
+}
 
 .imagenFondo {
   background-image: url("../img/fondo.jpg");
@@ -138,6 +144,38 @@ footer div p {
     border: 5px solid #00913f;
   }
 }
+.colorValores {
+  background-color: #282b1e;
+}
+
+.cajaPrincSistemas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .cajaPrincSistemas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+.tamanioCajaContacto {
+  width: 400px;
+  height: 300px;
+}
+
+.cajasFlexInt {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .alineacionCentro {
   text-align: center;
 }
@@ -156,6 +194,10 @@ footer div p {
 
 .espacioLogo {
   padding: 2px;
+}
+
+.marginTop {
+  margin-top: 10px;
 }
 
 .ulCol {
@@ -180,6 +222,21 @@ h3 {
   font-size: 14px;
   font-family: Verdana, Tahoma, sans-serif;
   height: 30px;
+}
+
+h6 {
+  color: white;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+h5 {
+  color: #333333;
+  font-size: 15px;
+  padding: 10px 15px 5px 25px;
+  font-family: "Lato", sans-serif;
+  text-align: left;
 }
 
 .descripcion {
@@ -214,6 +271,57 @@ h3 {
     padding: 5px 25px 5px 25px;
     text-align: justify;
     font-family: "Faustina", serif;
+  }
+}
+
+.descripcionNosotros {
+  color: #333333;
+  font-size: 20px;
+  padding: 5px 25px 5px 25px;
+  text-align: justify;
+  font-family: "Faustina", serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 991px) {
+  .descripcionNosotros {
+    color: #333333;
+    font-size: 18px;
+    padding: 5px 25px 5px 25px;
+    text-align: justify;
+    font-family: "Faustina", serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .descripcionNosotros {
+    color: #333333;
+    font-size: 16px;
+    padding: 5px 25px 5px 25px;
+    text-align: justify;
+    font-family: "Faustina", serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .descripcionNosotros {
+    color: #333333;
+    font-size: 14px;
+    padding: 5px 25px 5px 25px;
+    text-align: justify;
+    font-family: "Faustina", serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -256,6 +364,53 @@ h4 {
     font-family: "Roboto", sans-serif;
     text-align: center;
     padding: 30px 75px 30px 75px;
+  }
+}
+
+.listaComun {
+  list-style-type: square;
+  color: #999999;
+  font-size: 16px;
+  font-family: "Faustina", serif;
+  display: block;
+  margin-left: 10px;
+  margin-right: 25px;
+  text-align: justify;
+}
+@media screen and (max-width: 991px) {
+  .listaComun {
+    list-style-type: square;
+    color: #999999;
+    font-size: 14px;
+    font-family: "Faustina", serif;
+    display: block;
+    margin-left: 10px;
+    margin-right: 25px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 768px) {
+  .listaComun {
+    list-style-type: square;
+    color: #999999;
+    font-size: 12px;
+    font-family: "Faustina", serif;
+    display: block;
+    margin-left: 10px;
+    margin-right: 25px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 576px) {
+  .listaComun {
+    list-style-type: square;
+    color: #999999;
+    font-size: 10px;
+    font-family: "Faustina", serif;
+    display: block;
+    margin-left: 10px;
+    margin-right: 25px;
+    text-align: justify;
   }
 }
 
