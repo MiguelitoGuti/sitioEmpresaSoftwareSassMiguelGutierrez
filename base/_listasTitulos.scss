@@ -83,3 +83,20 @@ h4{
     font-family: 'Faustina', serif;
 }
 
+.tituloPrincipal{
+    color:white;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 75px 30px 75px;
+    @media screen and (max-width: 991px) {
+
+        color:white;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        padding: 30px 75px 30px 75px;
+
+    }
+}
